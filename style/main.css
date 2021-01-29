@@ -5,13 +5,13 @@
 
 *{
     margin:0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
 }
 /* Elementos base */
 body{
     background: var(--preto);
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Arial', Times, serif;
     color:white;
 }
 
@@ -60,7 +60,7 @@ header nav a:hover{
 
 }
 
-.titulo{
+.filme-principal .titulo{
     margin-top: 15%;
     font-size:40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -94,10 +94,15 @@ header nav a:hover{
     width:60%;
 }
 
+.box-filme{
+    height: 100%;
+    width:100%;
+    display:block;
+}
 
-
-
-
+.carrosel-filmes{
+    margin-top: 5px;
+}
 
 
 
